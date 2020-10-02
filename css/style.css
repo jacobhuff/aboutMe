@@ -37,7 +37,7 @@ body {
     margin-top: -10px;
 }
 #kentucky-image {
-    width: 60%;
+    width: 80%;
 }
 .img-container {
     width: 100%;
@@ -55,4 +55,29 @@ body {
 }
 #my-name {
     margin-top: 75px;
+}
+#tata-img {
+    width: 80%;
+}
+@media (max-width: 400px) {
+    #navbar {
+        display: flex;
+        font-size: 14px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #navbar li {
+        width: 33%;
+    }
+    #headshot {
+        width: 100px;
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    ul {
+        font-size: 14px;
+    }
 }
