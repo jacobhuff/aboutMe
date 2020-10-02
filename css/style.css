@@ -81,3 +81,8 @@ body {
         font-size: 14px;
     }
 }
+@media (max-width: 270px) {
+    #navbar {
+        font-size: 10px;
+    }
+}
